@@ -14,7 +14,7 @@ body {
     background-color: #14253d;
     position: absolute;
     margin-top: 10px;
-    left: 50vh;
+    left: 67vh;
     height: 685px;
     padding: 20px;
     margin: 10px;
@@ -61,19 +61,34 @@ body {
 
 }
 
+.container_clock {
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
 .clock {
     color: #0664f1;
-    position: absolute;
-    left: 70%;
+    left: 80%;
+    margin: 5px 5px 5px 5px;
+    top: -4.6%;
+
+
 }
 .clock a {
     color: #93A9D2;
+    flex: 1;
+
 }
 
 .clock img {
-    position: absolute;
-    left: -40%;
-    bottom: 1px;
+    flex: 1;
+    background-color: #0664f1;
+    width: 20px;
+    height: 20px;
+    top: 11%;
+
 }
 
 
